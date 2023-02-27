@@ -13,16 +13,18 @@
     display: block;
     text-align: center;
     padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     color: black;
   }
 
   /*Add a background color when mouse-over*/
   .navbar a:hover{
-    background-color: blue;
+    background-color: #555;
   }
   
   /*Change the color of the current page*/
   .navbar a.active{
     background-color: red;
   }
+  
