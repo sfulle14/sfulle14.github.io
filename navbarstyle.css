@@ -8,7 +8,7 @@
   }
   
   /*links inside navbar*/
-  .navbar a{
+  .navbar n{
     float: left;
     display: block;
     text-align: center;
@@ -19,12 +19,11 @@
   }
 
   /*Add a background color when mouse-over*/
-  .navbar a:hover{
+  .navbar n:hover{
     background-color: #555;
   }
   
   /*Change the color of the current page*/
-  .navbar a.active{
+  .navbar n.active{
     background-color: red;
   }
-  
