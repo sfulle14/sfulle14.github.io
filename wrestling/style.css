@@ -1,9 +1,28 @@
+/*navbar*/
+.navbar{
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*links inside navbar*/
+.navbar a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14 16px;
+  text-decoration: none;
+}
+
+/*Table*/
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-
+/*Elements in the table*/
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
