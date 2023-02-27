@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--Links to other pages-->
+    <!--Links to other pages-->
+    <div class="navbar">
         <a href="https://sfulle14.github.io/">Home</a>
         <a href="https://sfulle14.github.io/about/about.html">About</a>
-        <!--<a href="">TBD</a>-->
+        <a href="https://sfulle14.github.io/login/landing.html">Login</a>
+    </div>
+    
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="/login/style.css">
     </head>
-<body>
-    <P>Landing page for when I start working on creating a login page.</P>
-</body>
+
+    <body>
+        <h2>Login Page</h2><br>
+        <div class="login">
+            <form id="login" method="get" action="login.php">
+                <label><b>User Name                    
+                </b>
+                </label>
+                <input type="text" name="Uname" id="Uname" placeholder="Password">
+                <br><br>
+                <label><b>Password
+                </b>
+                </label>
+                <input type="Password" name="Pass" id="Pass" placeholder="Password">
+                <br><br>
+                <input type="button" name="log" id="log" value="Log In Here">
+                <br><br>
+                <input type="checkbox" id="check">
+                <span>Remember me</span>
+                <br><br>
+                Forget <a href="#">Password</a>
+            </form>
+        </div>
+    </body>
 </html>
