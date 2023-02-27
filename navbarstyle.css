@@ -1,7 +1,7 @@
 /*navbar*/
 .navbar{
     overflow: hidden;
-    background-color: #555;
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,12 +14,12 @@
     text-align: center;
     padding-left: 10px;
     text-decoration: none;
-    color: white;
+    color: black;
   }
 
   /*Add a background color when mouse-over*/
   .navbar a:hover{
-    background-color: #000;
+    background-color: blue;
   }
   
   /*Change the color of the current page*/
