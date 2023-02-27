@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #6abadeba;
+    background-color: white;
     font-family: 'Arial';
 }
 
@@ -54,9 +54,8 @@ span{
     color: white;
     font-size: 17px;
 }
-/*
-a{
+
+c{
     float: right;
     background-color: gray;
 }
-*/
